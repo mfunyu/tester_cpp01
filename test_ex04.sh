@@ -10,7 +10,7 @@ RESET="\033[m"
 PROMPT="${CYAN}$>${RESET}"
 
 REPLACE="./replace"
-TESTFILEDIR="./tester_cpp01/files"
+TESTFILEDIR="../tester_cpp01/files"
 
 FILES=`ls -1 ${TESTFILEDIR}`
 FLIELST=(${FILES// / })
